@@ -43,7 +43,7 @@ const Username = () => {
             </div>
 
             <div className="text-center py-4">
-              <span className='text-gray-500'>Not a member <Link className='text-red-500' to="/register">Register Now</Link></span>
+              <span className='text-gray-500'>Not a member ? <Link className='text-red-500' to="/register">Register Now</Link></span>
             </div>
 
           </form>
