@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import avatar from '../assets/profile.png'
-import { Toaster } from 'react-hot-toast';//show mssg send or error
-import { useFormik } from 'formik'//show mssg sent success or not
+import { Toaster } from 'react-hot-toast';    //show mssg send or error
+import { useFormik } from 'formik'           //show mssg sent success or not
 import{usernameValidate} from '../helper/validate'
 
 import styles from '../styles/Username.module.css'
